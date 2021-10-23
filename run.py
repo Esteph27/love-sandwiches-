@@ -148,7 +148,6 @@ def main():
     update_worksheet(new_surplus_data, "surplus")
     sales_column = get_last_5_entries_sales()
     stock_data = calculate_stock_data(sales_column)
-    print(stock_data)
     update_worksheet(stock_data, "stock")
 
 
